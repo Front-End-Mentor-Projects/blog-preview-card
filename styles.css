@@ -6,6 +6,11 @@ body {
   background-color: #f4d04e;
   width: 100%;
   height: 100vh;
+  font-family: "Figtree medium", Courier, monospace;
+}
+h1 {
+  font-size: 29px;
+  font-stretch: condensed;
 }
 h3 {
   background-color: #f4d04e;
@@ -24,12 +29,19 @@ h3 {
   height: 522px;
   padding: 24px;
 }
+
+.pub {
+  font-weight: 600;
+}
+
+.typeText {
+  font-size: 14px;
+}
 .creds {
   display: flex;
   flex-direction: row;
   align-items: center;
   text-align: justify;
-  padding: ;
 }
 .avatar {
   width: 32px;
@@ -37,7 +49,15 @@ h3 {
   padding-right: 24px;
   font-weight: bold;
 }
+
+.author {
+  font-weight: bold;
+}
 .mainImg {
   border-radius: 10px;
   width: 100%;
+}
+
+.attribution {
+  margin-top: 10px;
 }
